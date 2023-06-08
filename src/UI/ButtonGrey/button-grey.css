@@ -1,0 +1,29 @@
+.button-grey {
+    border-radius: 4px;
+    background-color: grey;
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 18px;
+    min-width: 300px;
+    text-align: center;
+    border: 1px solid black;
+    transition-duration: 0.3s;
+    transition-property: background-color;
+    cursor: pointer;
+}
+
+.button-grey:hover {
+    background-color: black;
+}
+
+.button-grey_my-map {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.button-grey_sidebar {
+    margin-top: auto;
+}

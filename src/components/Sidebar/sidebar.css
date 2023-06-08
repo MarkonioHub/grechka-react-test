@@ -1,0 +1,63 @@
+.sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 400px;
+    background-color: white;
+    border: 1px solid black;
+    display: none;
+}
+
+.sidebar_open {
+    display: flex;
+}
+
+.sidebar__area {
+    width: 100%;
+    padding: 80px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar__close {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    background-image: url("./ic_close_black.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    outline: none;
+}
+
+.sidebar__title {
+    margin-bottom: 30px;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+.sidebar__address {
+    margin-bottom: 30px;
+}
+
+.sidebar__address-span {
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.sidebar__address-input {
+    display: none;
+    opacity: 0;
+    border: none;
+    outline: none;
+    cursor: default;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 700;
+}

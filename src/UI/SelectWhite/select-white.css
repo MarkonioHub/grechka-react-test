@@ -1,0 +1,53 @@
+.select-white {
+
+}
+
+.select-white_sidebar {
+    margin-bottom: 30px;
+}
+
+.select-white__placeholder {
+    padding: 15px 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 700;
+}
+
+.select-white__placeholder_active {
+    border: 1px solid blue;
+}
+
+.select-white__placeholder_active + .select-white__list {
+    display: block;
+}
+
+.select-white__placeholder:hover {
+    border: 1px solid grey;
+}
+
+.select-white__input {
+    opacity: 0;
+    display: none;
+}
+
+.select-white__list {
+    display: none;
+}
+
+.select-white__item {
+    cursor: pointer;
+    padding: 15px 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 18px;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+}
+
+.select-white__item:hover {
+    background-color: grey;
+}
