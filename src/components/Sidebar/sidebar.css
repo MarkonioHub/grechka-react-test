@@ -1,15 +1,13 @@
 .sidebar {
     position: absolute;
+    z-index: 1;
     top: 0;
     left: 0;
     bottom: 0;
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
     background-color: white;
     border: 1px solid black;
-    display: none;
-}
-
-.sidebar_open {
     display: flex;
 }
 
@@ -60,4 +58,17 @@
     font-size: 16px;
     line-height: 18px;
     font-weight: 700;
+}
+
+@media screen and (max-width: 700px) {
+    .sidebar {
+        position: static;
+        max-width: 100%;
+    }
+    .sidebar__area {
+        padding: 40px 20px;
+    }
+    .sidebar__close {
+        top: 10px;
+    }
 }

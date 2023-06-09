@@ -5,7 +5,8 @@
     padding: 20px;
     font-size: 16px;
     line-height: 18px;
-    min-width: 300px;
+    max-width: 300px;
+    width: 100%;
     text-align: center;
     border: 1px solid black;
     transition-duration: 0.3s;
